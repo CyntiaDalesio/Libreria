@@ -17,6 +17,7 @@ public class AutorPersistencia {
             em.persist(autor);
             em.getTransaction().commit();
 
+
         } catch (Exception e) {
 
             System.out.println(e.getLocalizedMessage());
@@ -64,6 +65,9 @@ public class AutorPersistencia {
     public void imprimirListaAutor(List<Autor> lista) {
         for (Autor autores : lista) {
             System.out.println(autores.getNombre());
+               System.out.println("este metodo no se usa. no se deberia usar ni estar en persistencia");
+            
+            
         }
     }
 
