@@ -75,7 +75,11 @@ public class LibroService {
         lp.modificar(libro);
         }
         
+        public void Mensaje (){
         
+            System.out.println("Subir este cambio al repositorio");
+        
+        }
         
         
 }

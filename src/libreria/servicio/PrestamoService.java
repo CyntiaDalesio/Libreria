@@ -17,7 +17,7 @@ public class PrestamoService {
         per.alta(prestamo);
 
     }
-
+   
     public void modificar(Prestamo prestamo) {
 
         per.modificar(prestamo);
@@ -60,5 +60,7 @@ public class PrestamoService {
         
 
     }
+    
+    
 
 }
